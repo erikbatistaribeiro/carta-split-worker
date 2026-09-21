@@ -1,9 +1,0 @@
-name = "gerar-carta-split"
-main = "src/worker.js"
-compatibility_date = "2024-09-01"
-compatibility_flags = ["nodejs_compat"]
-
-# Variáveis secretas — configure via Cloudflare Dashboard:
-# Settings → Variables → Add variable (marque como Secret/Encrypt)
-#   PIPEFY_TOKEN   → token Bearer do Pipefy
-#   WORKER_SECRET  → chave secreta para proteger o endpoint
